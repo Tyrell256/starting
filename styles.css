@@ -1,0 +1,31 @@
+html{
+    background-color: blueviolet;
+}
+
+nav{
+    width: 100%;
+    background-color: red;
+    padding-top: 10px;
+    margin-top: 0px;
+   
+}
+nav li{
+    display: inline;
+}
+nav a{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 8px;
+    margin: 4px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-style: none;
+    
+}
+nav a:hover,
+nav a:active{
+    background-color: yellow;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
