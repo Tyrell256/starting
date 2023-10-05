@@ -32,12 +32,20 @@ ul {
   }
 
   .ante{
-    margin-top: 10px;
-    padding-left: 10px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    justify-content: baseline;
+    margin-left: 50px;
   }
 
   .nav_button{
-    padding: 10px 12px;
+    margin-top: 4px;
+    padding: 5px 12px;
+    margin-bottom: 0;
+    margin-right: 4px;
+    background-color: transparent;
+    color: black;
+    border: black solid 1px;
   }
   
   /* Change the link color to #111 (black) on hover */
@@ -74,42 +82,62 @@ ul {
 
 button{
   margin-bottom: 10px;
-  color: #a518ac;
-  border: #a518ac solid 5px;
+  color: white;
+  border: white solid 1px;
   border-radius: 10px;
-  background-color: white;
+  background-color: transparent;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   padding: 15px 32px;
-  font-weight: 700;
+  font-weight: 100;
 }
+
+.twobuttons{
+  text-align: left;
+}
+
 .main{
   text-align: justify;
-  color: black;
+  color: rgb(119, 119, 119);
+}
+
+.main h1{
+  font-size: 60px;
+  line-height: .5;
 }
 
 .mission{
   text-align: center;
+  border: dotted transparent 1px;
+  margin: 0;
 }
 .what, .how{
   text-align: center;
+  line-height: .9;
 }
 .what{
   background-color: #BC00DD;
   margin: 0;
+  border: solid transparent;
 }
 .how{
   background-color: #DB00B6;
+  border: solid transparent 1px;
+  margin: 0%;
 }
 
 .subscribe{
   background-color: darkviolet;
   color: white;
+  border: solid transparent 1px;
+  margin: 0;
 }
 
 .footer{
   background-color: gray;
   bottom: 0;
+  border: transparent solid 1px;
+  
 }
